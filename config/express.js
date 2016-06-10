@@ -1,4 +1,5 @@
 var express         = require('express');
+var helmet          = require('helmet');
 var bodyParser      = require('body-parser');
 var methodOverride  = require('method-override');
 var load            = require('express-load');
@@ -13,6 +14,7 @@ module.exports = (rootDirectory) => {
     app.set('models', db);
     
     // middlewares
+    app.use(helmet());
     app.use(express.static('./public'));
     app.use(bodyParser.urlencoded({extended: true}));
     app.use(bodyParser.json());

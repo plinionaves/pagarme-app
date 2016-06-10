@@ -3,7 +3,7 @@
     
     'use strict';
     
-    angular.module('pagarme-app', ['ngRoute'])
+    angular.module('pagarme-app', ['ngRoute', 'ngMaterial'])
     
     .config(['$routeProvider', function($routeProvider) {
         
