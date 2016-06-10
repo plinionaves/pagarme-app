@@ -1,0 +1,27 @@
+{
+  "name": "pagarme-app",
+  "description": "Application for interaction with Pagar.me",
+  "main": "server.js",
+  "authors": [
+    "Plínio Naves <pliniopjn@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "pagar.me",
+    "api"
+  ],
+  "homepage": "https://github.com/plinionaves/pagarme-app",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.*",
+    "angular-route": "^1.5.6",
+    "angular-material": "^1.0.9"
+  }
+}

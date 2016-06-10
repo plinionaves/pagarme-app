@@ -1,0 +1,37 @@
+{
+  "name": "pagarme-app",
+  "version": "1.0.0",
+  "description": "Application for interaction with Pagar.me",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plinionaves/pagarme-app.git"
+  },
+  "keywords": [
+    "pagar.me",
+    "api"
+  ],
+  "author": "Plínio Naves <pliniopjn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plinionaves/pagarme-app/issues"
+  },
+  "homepage": "https://github.com/plinionaves/pagarme-app#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "express-load": "^1.1.15",
+    "jwt-simple": "^0.5.0",
+    "method-override": "^2.3.6",
+    "mysql": "^2.11.1",
+    "sequelize": "^3.23.3"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "nodemon": "^1.9.2",
+    "sequelize-cli": "^2.4.0"
+  }
+}
